@@ -1,11 +1,13 @@
-import './App.css';
-import Hero from './components/Hero/Hero';
-function App() {
+import React from 'react'
+import './App.css'
+import Hero from './components/Hero/Hero'
+const App = () => {
   return (
-    <div className="App">
-          <span style={{color: 'white'}}><Hero/></span>
-    </div>
-  );
+       <div className="App">
+       <Hero/>
+      </div>
+   
+    )
 }
 
-export default App;
+export default App
